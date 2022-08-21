@@ -2,7 +2,7 @@
 
 Small app created to spite the mlb for denying api access to me. All I wanted to do was make a hee hee ha ha joke app about shohei ohtani cause a friend in my life thinks they're so smart and that he was having a goat season (which he was admittedly). It was gonna be a spa that updated daily based on previous nights performance to say whether he was having a 🐐 season or a 💩 season (no in between).
 
-![IMG_3269](https://user-images.githubusercontent.com/14024082/185809271-02cf336b-af2e-4111-a246-9bbb2e0e2c00.JPG | width=100)
+![IMG_3269](https://user-images.githubusercontent.com/14024082/185809271-02cf336b-af2e-4111-a246-9bbb2e0e2c00.JPG)
 
 Initially I tried scraping Shohei's baseball reference page but there's chunks of commented code that was screwing up any web crawl (like WHY??).
 
