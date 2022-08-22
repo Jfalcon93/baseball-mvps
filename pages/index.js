@@ -28,7 +28,7 @@ export default function Home() {
           <form className="flex" onSubmit={submitYear}>
             <div className="flex flex-row w-64">
               <input
-                className="border-b-2 w-32 text-center bg-black border-gray-300 transition duration-300 text-white text-xl focus:ring-0 focus:outline-none focus:border-blue-500 focus:border-b-2 block w-full p-1.5"
+                className="md:border rounded-lg w-32 text-center bg-black border-gray-300 transition duration-300 text-white text-xl focus:ring-0 focus:outline-none focus:border-blue-500 focus:border block w-full p-1.5"
                 type="number"
                 min="1911"
                 max="2021"
@@ -37,7 +37,7 @@ export default function Home() {
                 name="year"
               />
               <button
-                className="p-1.5 border-b-2 ml-4 self-end border-gray-300 transition duration-300 hover:text-blue-500 hover:border-blue-500"
+                className="p-1.5 border w-32 rounded-lg ml-4 border-gray-300 transition duration-300 hover:text-blue-500 hover:border-blue-500"
                 type="submit"
               >
                 search
@@ -58,6 +58,9 @@ export default function Home() {
                     {data[0].name}
                   </a>
                 </h2>
+                <h3 className="ml-4 text-xl font-light self-end">
+                  {data[0].team}
+                </h3>
                 <h3 className="ml-4 text-xl font-medium self-end">
                   {data[0].war}
                 </h3>
@@ -80,6 +83,9 @@ export default function Home() {
                     {data[1].name}
                   </a>
                 </h2>
+                <h3 className="ml-4 text-xl font-light self-end">
+                  {data[1].team}
+                </h3>
                 <h3 className="ml-4 text-xl font-medium self-end">
                   {data[1].war}
                 </h3>
@@ -95,11 +101,11 @@ export default function Home() {
         <form className="flex grow" onSubmit={submitYear}>
           <div className="flex flex-col content-center w-64 m-auto">
             <input
-              className="border-b-2 text-center bg-black border-gray-300 transition duration-300 text-white text-6xl focus:ring-0 focus:outline-none focus:border-blue-500 focus:border-b-2 block w-full p-2.5"
+              className="border rounded-lg text-center bg-black border-gray-300 transition duration-300 text-white text-5xl focus:ring-0 focus:outline-none focus:border-blue-500 focus:border block w-full p-2.5"
               type="number"
               min="1911"
               max="2021"
-              placeholder="2021"
+              placeholder="enter year"
               id="year"
               name="year"
             />
