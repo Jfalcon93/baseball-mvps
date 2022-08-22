@@ -28,7 +28,7 @@ export default function Home() {
           <form className="flex" onSubmit={submitYear}>
             <div className="flex flex-row w-64">
               <input
-                className="md:border rounded-lg w-32 text-center bg-black border-gray-300 transition duration-300 text-white text-xl focus:ring-0 focus:outline-none focus:border-blue-500 focus:border block w-full p-1.5"
+                className="border rounded-lg w-32 text-center bg-black border-gray-300 transition duration-300 text-white text-xl focus:ring-0 focus:outline-none focus:border-blue-500 focus:border block w-full p-1.5"
                 type="number"
                 min="1911"
                 max="2021"
