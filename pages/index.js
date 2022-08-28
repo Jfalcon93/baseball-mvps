@@ -46,11 +46,11 @@ export default function Home() {
           </form>
           <div className="flex flex-col">
             <div className="mt-12 md:mt-16">
-              <h1 className="text-4xl pb-1 font-light text-blue-500">
+              <h1 className="text-3xl md:text-4xl pb-1 font-light text-blue-500">
                 {data[0].league}
               </h1>
               <div className="flex flex-row pb-4">
-                <h2 className="text-4xl font-light">
+                <h2 className="text-3xl md:text-4xl font-light">
                   <a
                     className="hover:text-blue-500 md:no-underline underline decoration-2 underline-offset-4 decoration-blue-500"
                     href={data[0].profile}
@@ -58,10 +58,10 @@ export default function Home() {
                     {data[0].name}
                   </a>
                 </h2>
-                <h3 className="ml-4 text-xl font-light self-end">
+                <h3 className="ml-4 text-lg md:text-xl font-light self-end">
                   {data[0].team}
                 </h3>
-                <h3 className="ml-4 text-xl font-medium self-end">
+                <h3 className="ml-4 text-lg md:text-xl font-medium self-end">
                   {data[0].war}
                 </h3>
               </div>
@@ -71,11 +71,11 @@ export default function Home() {
               </div>
             </div>
             <div className="mt-12 md:mt-16 mb-12 md:mb-0">
-              <h1 className="text-4xl pb-1 font-light text-red-500">
+              <h1 className="text-3xl md:text-4xl pb-1 font-light text-red-500">
                 {data[1].league}
               </h1>
               <div className="flex flex-row pb-4">
-                <h2 className="text-4xl font-light">
+                <h2 className="text-3xl md:text-4xl font-light">
                   <a
                     className="hover:text-red-500 md:no-underline underline decoration-2 underline-offset-4 decoration-red-500"
                     href={data[1].profile}
@@ -83,10 +83,10 @@ export default function Home() {
                     {data[1].name}
                   </a>
                 </h2>
-                <h3 className="ml-4 text-xl font-light self-end">
+                <h3 className="ml-4 text-lg md:text-xl font-light self-end">
                   {data[1].team}
                 </h3>
-                <h3 className="ml-4 text-xl font-medium self-end">
+                <h3 className="ml-4 text-lg md:text-xl font-medium self-end">
                   {data[1].war}
                 </h3>
               </div>

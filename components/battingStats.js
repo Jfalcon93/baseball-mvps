@@ -2,7 +2,7 @@ import { Tooltip } from "../components/tooltip";
 
 export const BattingStats = ({ data }) => {
   return (
-    <div className="flex-col">
+    <div className="flex-col text-sm md:text-base">
       <h3 className="font-light pb-1">Batting Stats</h3>
       <table className="table-fixed">
         <thead>
